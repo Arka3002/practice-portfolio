@@ -2,16 +2,20 @@
     padding: 0;
     margin: 0;
     }    
-    header {
-        
-    }
+img {
+    width: 100%;
+}
 
+    .container {
+    max-width: 1200px;
+    margin: auto;
+
+    }
     nav {
     
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
+
     padding: 12px 0;
     }
 
@@ -38,7 +42,7 @@
         font-family: 'Times New Roman', Times, serif;
         color: #fd6e0a;
     }
-
+    /* common style */
     .common_button {
         background-color: #fd6e0a;
         padding: 6px 15px;
@@ -46,5 +50,65 @@
         font-weight: bold;
         font-size: 22px;
         color: aliceblue;
-        border: none;        
+        border: none;
+        cursor: pointer;       
+    }
+
+    .common_button_nobg {
+        background-color: white;
+        padding: 6px 15px;
+        border-radius: 12px;
+        font-weight: bold;
+        font-size: 22px;
+        color: #fd6e0a;
+        border: 1px solid;
+        cursor: pointer;           
+    }
+    .hero_parent_root {
+        background-color: #ffe8dd;
+    }
+    .hero_parent {
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .hero_left_p1 {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+        .hero_left h2{
+        font: bold;
+        font-size: 45px;
+        margin: 8px;
+    }
+
+    .hero_left_button_parent {
+        margin-top: 8px;
+    }
+    /* About Section start */
+    .about_me_info_parent {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .about_parent {
+        margin: 70px auto;
+        background: #ffe8dd;
+        padding: 70px;
+        text-align: center;
+    }
+
+    .about_parent p {
+        margin: 20px 0px;
+    }
+
+    .about_me_info_parent .box {
+        background-color: white;
+        padding: 25px;
+        border-radius: 100px;
     }
